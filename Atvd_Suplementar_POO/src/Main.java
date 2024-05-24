@@ -11,7 +11,7 @@ public class Main {
         while (true) {
             System.out.println("Digite a ação desejada:\n1- Estacionar Moto\n2- Estacionar Carro\n3- Remover Veículo\n0- Sair");
             int acao = scanner.nextInt();
-            scanner.nextLine(); // Consumir a nova linha pendente
+            scanner.nextLine();
 
             if (acao == 0) {
                 System.out.println("Encerrando o programa.");
